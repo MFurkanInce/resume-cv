@@ -1,0 +1,224 @@
+.profil img
+{
+    border-radius: 99px;
+    width: 12rem;
+    height: 12rem;
+    margin: 12px;
+}
+ul
+{
+    list-style: none;
+}
+html {
+    font-family: "Raleway",'Lato';
+    line-height: 1.5;
+  }
+  
+  body {
+    padding: 2rem 2.5rem;
+      background: linear-gradient(45deg, rgb(83, 4, 53), #E94584,#F17C58, #24AADB , #27DBB1,#FFDC18, #FF3706 ,rgb(70, 5, 5));
+      background-size: 600% 100%;
+      animation: gradient 10s linear infinite;
+      animation-direction: alternate;
+  }
+  @keyframes gradient {
+      0% {background-position: 0%}
+      100% {background-position: 100%}
+  }
+  .profil   
+  {
+      display: grid;  
+      grid-template-columns: 1fr 3fr;
+  }
+
+
+
+  .name
+  {
+      color: black;
+      font-weight: bolder;
+  }
+
+
+  .main
+  {
+      display: grid;
+      grid-template-columns: 50% 1fr ;
+      grid-gap: 4rem;
+      max-width: 1000px;
+    
+      background-color: rgb(82, 78, 73,0.3);
+      margin: auto;
+      border-radius: 43px;
+  }
+
+header
+{
+    background-color: rgba(82, 78, 73, 0.3);
+    border-radius: 43px;
+    max-width: 1000px;
+    max-height: 250px;
+    margin: auto;
+    
+}
+.timeline .event + .event {
+    padding-top: 1rem;
+  }
+  
+  .timeline .event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+  }
+  
+  .timeline .content {
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .content > h3 + p {
+    margin-bottom: 1rem;
+    color: rgb(15, 36, 3);
+  }
+
+
+  
+section {
+
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: left;
+	width: 40%;
+  margin: 18px;
+  margin-bottom: 12px;
+  
+}
+
+.sectionContent {
+	float: right;
+	width: 82.5%;
+  
+}
+
+.sectionTitle h1 {
+
+	
+	font-size: 1.5em;
+	color:rgb(15, 36, 3);
+}
+
+.sectionContent h2 {
+
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+  font-weight: bold;
+  color:rgb(15, 36, 3);
+}
+.clear {clear: both;}
+
+  
+.yetenekler > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    color: rgb(15, 36, 3);
+  }
+
+.yetenekler
+{
+    margin: auto;
+    margin-top: -1cm;
+    color:rgb(15, 36, 3);
+
+}
+ 
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(15, 36, 3); 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 35px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    outline: none;
+    text-align:left;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color:rgba(73, 16, 16, 0);
+    color:  rgb(15, 36, 3);
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid rgb(15, 36, 3);
+    border-radius: 43px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color:rgb(15, 36, 3);
+    outline: none;
+    color: white; 
+  }     
+  label
+  {
+      
+      font-weight: bold;
+    
+  }
+
+
+  .listStyle{
+
+    list-style: "|  ";
+    color: black;
+    font-weight: bold;
+
+  }
+ 
+
+  a{
+
+    color:rgb(15, 36, 3);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .kimliktitle
+  {
+    color: chartreuse;
+    font-weight: bolder;
+  }
+
+
+
+  .etkinlikler >ul >li
+  {
+    list-style: "|  ";
+    font-weight: bold;
+  }
